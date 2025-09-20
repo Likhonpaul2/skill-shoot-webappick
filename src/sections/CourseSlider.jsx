@@ -124,7 +124,7 @@ const CourseSlider = () => {
         className="absolute top-[35px] left-8 w-[39px] lg:w-fit lg:block"
       />
 
-      {/* Heading */}
+      {/* heading */}
       <div className="text-center mb-8">
         <h2 className="text-white text-xl sm:text-2xl lg:text-[36px] font-semibold">
           Popular courses of the week

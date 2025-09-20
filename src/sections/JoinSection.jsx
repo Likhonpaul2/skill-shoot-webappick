@@ -6,9 +6,11 @@ const JoinSection = () => {
   return (
     <section>
       <div className="max-w-[1280px] mx-auto my-[50px] lg:my-[100px] relative px-6 lg:px-0">
+
         {/* background rectangle */}
         <div className="bg-secondary-bg h-78 lg:h-fit flex flex-col lg:flex-row lg:items-center lg:justify-between lg:px-16 lg:py-12 px-10 py-10 rounded-[10px] text-center lg:text-left gap-6">
-          {/* Left text */}
+
+          {/* left text */}
           <div className="flex-1">
             <h2 className="text-[20px] sm:text-[24px] lg:text-[36px] font-semibold leading-relaxed lg:leading-[48px]">
               <span className="text-secondary-color">Improve</span>, your
@@ -16,7 +18,7 @@ const JoinSection = () => {
             </h2>
           </div>
 
-          {/* Right buttons */}
+          {/* right buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end flex-1 relative">
             <button className="bg-secondary-color text-white text-[14px] sm:text-[16px] lg:text-[20px] font-medium lg:font-bold px-6 py-3 rounded-md hover:opacity-90 w-fit mx-auto lg:m-0">
               Join Now
@@ -29,7 +31,7 @@ const JoinSection = () => {
           </div>
         </div>
 
-        {/* Style icon */}
+        {/* style icon */}
         <img
           src={leftTopIcon}
           alt="leftTopIcon"

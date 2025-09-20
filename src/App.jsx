@@ -5,6 +5,7 @@ import DiscountSection from "./sections/DiscountSection";
 import HeroSection from "./sections/HeroSection";
 import JoinSection from "./sections/JoinSection";
 import MediaSection from "./sections/MediaSection";
+import PriceSection from "./sections/PriceSection";
 import ProductSection from "./sections/ProductSection";
 import ProfileSection from "./sections/ProfileSection";
 
@@ -19,6 +20,7 @@ function App() {
       <ProductSection/>
       <AboutSection/>
       <JoinSection/>
+      <PriceSection/>
     </div>
   );
 }
