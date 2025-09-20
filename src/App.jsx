@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./sections/AboutSection";
 import DiscountSection from "./sections/DiscountSection";
 import HeroSection from "./sections/HeroSection";
+import JoinSection from "./sections/JoinSection";
 import MediaSection from "./sections/MediaSection";
 import ProductSection from "./sections/ProductSection";
 import ProfileSection from "./sections/ProfileSection";
@@ -17,6 +18,7 @@ function App() {
       <ProfileSection/>
       <ProductSection/>
       <AboutSection/>
+      <JoinSection/>
     </div>
   );
 }
