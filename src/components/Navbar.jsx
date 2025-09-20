@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-primary-color text-basic-text">
-      <div className="max-w-full mx-auto flex items-center justify-between px-4 py-4 lg:px-20">
+      <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4 py-4 lg:px-20">
         {/* logo */}
         <div className="text-[20px] lg:text-2xl font-bold">
           Skill <span className="text-secondary-color">Shoot</span>
@@ -58,7 +58,7 @@ const Navbar = () => {
 
       {/* mobile menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-4 pb-4">
+        <div className="md:hidden flex flex-col items-center space-y-4 pb-4 bg-primary-dark py-5">
           {NavLinks.map((link) => (
             <a
               key={link.name}
@@ -82,6 +82,8 @@ const Navbar = () => {
           </div>
         </div>
       )}
+
+      
     </nav>
   );
 };
