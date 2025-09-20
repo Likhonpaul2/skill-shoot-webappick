@@ -17,7 +17,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="bg-primary-color">
+    <section className="bg-primary-color">
       <div className="max-w-[1440px] mx-auto px-6 py-12 lg:px-20 lg:py-16">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 lg:gap-0">
           {/* left-hero */}
@@ -99,7 +99,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
