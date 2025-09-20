@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import DiscountSection from "./sections/DiscountSection";
 import HeroSection from "./sections/HeroSection";
 import MediaSection from "./sections/MediaSection";
+import ProductSection from "./sections/ProductSection";
 import ProfileSection from "./sections/ProfileSection";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MediaSection/>
       <DiscountSection/>
       <ProfileSection/>
+      <ProductSection/>
     </div>
   );
 }
