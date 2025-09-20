@@ -89,6 +89,7 @@ const courses = [
 const CourseSlider = () => {
   // slider details 
   const settings = {
+
     dots: false,
     infinite: false,
     speed: 500,
@@ -110,17 +111,17 @@ const CourseSlider = () => {
 
   return (
     // main div 
-    <div className="bg-primary-color py-12 px-4 sm:px-6 relative">
+    <div className="bg-primary-color py-20 px-4 sm:px-6 relative">
       {/* Background icons */}
       <img
         src={orangOval}
         alt="icon"
-        className="absolute right-5 top-[50px] hidden lg:block"
+        className="absolute right-5 top-[50px] w-[17px] lg:w-fit  lg:block"
       />
       <img
         src={orangRactangle}
         alt="icon"
-        className="absolute top-[120px] left-10 hidden lg:block"
+        className="absolute top-[35px] left-8 w-[39px] lg:w-fit lg:block"
       />
 
       {/* Heading */}
@@ -214,7 +215,7 @@ const CourseSlider = () => {
                   </span>
                 </div>
 
-                
+
               </div>
             </div>
           </div>
