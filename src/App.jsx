@@ -8,6 +8,7 @@ import MediaSection from "./sections/MediaSection";
 import PriceSection from "./sections/PriceSection";
 import ProductSection from "./sections/ProductSection";
 import ProfileSection from "./sections/ProfileSection";
+import TestimoniSection from "./sections/TestimoniSection";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <AboutSection/>
       <JoinSection/>
       <PriceSection/>
+      <TestimoniSection/>
     </div>
   );
 }

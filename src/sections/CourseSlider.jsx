@@ -82,6 +82,7 @@ const courses = [
     participants: 200,
     price: 100,
     img: product3,
+    avatar: avatar1,
     icon: icon,
   },
 ];
@@ -89,7 +90,6 @@ const courses = [
 const CourseSlider = () => {
   // slider details 
   const settings = {
-
     dots: false,
     infinite: false,
     speed: 500,
