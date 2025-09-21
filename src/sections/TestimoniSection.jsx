@@ -3,7 +3,7 @@ import TestimoniSlider from '../components/TestimoniSlider';
 
 const TestimoniSection = () => {
     return (
-        <section>
+        <section id='testimoni'>
             <div className='bg-testimoni-bg py-16 lg:pt-22 lg:pb-35'>
                 <div className='lg:max-w-[1281px] mx-auto'>
 

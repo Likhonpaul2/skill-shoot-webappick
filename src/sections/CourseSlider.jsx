@@ -20,7 +20,7 @@ import orangRactangle from "../assets/discount-section-elements/Group 575.png";
 const PrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute left-[20px] sm:left-[-35px] lg:left-[-40px] 
+    className="absolute left-[20px] sm:left-[35px] lg:left-[-40px] 
                top-1/2 transform -translate-y-1/2 bg-white/80 rounded-full shadow-md 
                p-2 z-10 w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] lg:w-[67px] lg:h-[67px] flex items-center justify-center"
   >
@@ -31,7 +31,7 @@ const PrevArrow = ({ onClick }) => (
 const NextArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute right-[20px] sm:right-[-35px] lg:right-[-40px] 
+    className="absolute right-[20px] sm:right-[35px] lg:right-[-40px] 
                top-1/2 transform -translate-y-1/2 bg-white/80 rounded-full shadow-md 
                p-2 z-10 w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] lg:w-[67px] lg:h-[67px] flex items-center justify-center"
   >

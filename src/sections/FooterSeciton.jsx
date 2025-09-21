@@ -27,7 +27,7 @@ const FooterSeciton = () => {
               name="email"
               placeholder="Enter Your Email"
               className="bg-white/20 w-74 lg:w-95 h-11 lg:h-15 rounded-sm  text-white pl-8 text-[12px]
-                lg:text-[16px]"
+                lg:text-[16px] outline-none"
             />
 
             {/* right buttons */}

@@ -4,7 +4,7 @@ import MostPopularPriceCard from "../components/MostPopularPriceCard";
 
 const PriceSection = () => {
   return (
-    <section>
+    <section id="subscribe">
       <div className="lg:max-w-[850px] mx-auto px-8 sm:px-8 lg:px-0">
         <div>
           {/* heading and sub-heading */}
@@ -22,7 +22,7 @@ const PriceSection = () => {
         </div>
 
         {/* card section for mobile */}
-        <div className="lg:hidden my-30 flex flex-col md:flex-row gap-15 items-center justify-center">
+        <div className="lg:hidden my-30 flex flex-col sm:grid sm:grid-col-2 md:flex-row gap-15 items-center justify-center">
           <MostPopularPriceCard />
           <PriceCard price={50} month={1} plan={"Base"} />
           <PriceCard price={200} month={12} plan={"Enterprise"} />
@@ -30,7 +30,7 @@ const PriceSection = () => {
 
 
         {/* card section for desktop */}
-        <div className="hidden lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  my-30 items-center justify-center">
+        <div className="hidden lg:grid grid-cols-1 sm:grid-col-2 md:grid-cols-2 lg:grid-cols-3  my-30 items-center justify-center">
           <div>
             <PriceCard price={50} month={1} plan={"Base"} />
           </div>

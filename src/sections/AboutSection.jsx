@@ -15,7 +15,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section>
+    <section id="about">
       <div className="lg:max-w-[1142px] mx-auto my-[50px] lg:my-[100px] flex flex-col lg:flex-row items-center lg:space-x-[110px] px-8 lg:px-0">
         {/* Left image */}
         <div className="hidden lg:block w-full lg:w-[50%]  justify-center mb-8 lg:mb-0">
@@ -34,7 +34,7 @@ const AboutSection = () => {
             <img
               src={vectorLine}
               alt="line"
-              className="absolute  lg:block w-25 lg:w-64  lg:top-14 right-50 lg:right-28"
+              className="absolute   w-25 sm:w-25 lg:w-64 sm:left-16 lg:top-14 right-50 lg:left-35"
             />
           </div>
 

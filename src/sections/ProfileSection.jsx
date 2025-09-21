@@ -75,7 +75,7 @@ const ProfileSection = () => {
             </div>
 
             {/* others   */}
-            <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-[67px] text-center py-4">
+            <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-[67px] text-center py-4   gap-5 lg:gap-0 ">
               <div>
                 <h3 className="text-[24px] lg:text-[36px] font-semibold">
                   100+

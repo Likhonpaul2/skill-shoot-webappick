@@ -17,7 +17,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="bg-primary-color">
+    <section id="home" className="bg-primary-color">
       <div className="max-w-[1440px] mx-auto px-6 py-12 lg:px-20 lg:py-16">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10 lg:gap-0">
           {/* left-hero */}
@@ -73,7 +73,7 @@ const HeroSection = () => {
 
             {/* icons  */}
             <img
-              className="lg:hidden  absolute -top-3 left-0 w-[35px]"
+              className="lg:hidden  absolute -top-3 left-0 sm:-top-8 w-[35px]"
               src={editIcon}
               alt={editIcon}
             />
@@ -94,7 +94,7 @@ const HeroSection = () => {
             <img
               src={RightHeroImg}
               alt="Hero"
-              className="lg:w-[490px] h-auto absolute right-0 top-9"
+              className="lg:w-[490px]  h-auto absolute right-0 top-9"
             />
           </div>
         </div>

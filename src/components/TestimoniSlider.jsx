@@ -18,7 +18,7 @@ import starIcon from '../assets/testimoniS-section-elements/Star.png'
 const PrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute left-[35%] sm:left-[-35px] lg:left-[42%] 
+    className="absolute left-[35%] sm:left-[40%] lg:left-[42%] 
                -bottom-20 lg:-bottom-40 transform -translate-y-1/2 bg-white/80 rounded-full shadow-md 
                p-2 z-10 w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] lg:w-[67px] lg:h-[67px] flex items-center justify-center hover:bg-secondary-color group"
   >
@@ -29,7 +29,7 @@ const PrevArrow = ({ onClick }) => (
 const NextArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="absolute right-[35%] sm:right-[-35px] lg:right-[42%] 
+    className="absolute right-[35%] sm:right-[40%] lg:right-[42%] 
                -bottom-20 lg:-bottom-40 transform -translate-y-1/2 bg-white/80 rounded-full shadow-md 
                p-2 z-10 w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] lg:w-[67px] lg:h-[67px] flex items-center justify-center hover:bg-secondary-color group"
   >
@@ -110,8 +110,8 @@ const TestimoniSlider = () => {
 
 
             <div
-              className="bg-white lg:bg-white/0 lg:hover:bg-white hover:shadow-md 
-                            w-[276px] h-auto sm:w-[300px] md:w-[350px] lg:w-[413px] lg:h-[346px] mx-auto border-b-6 lg:border-b-0 lg:hover:border-b-6 border-primary-color lg:hover:border-primary-color transition duration-200"
+              className="bg-white sm:bg-white/0 lg:bg-white/0 lg:hover:bg-white hover:shadow-md 
+                            w-[276px] h-auto sm:w-[300px] md:w-[350px] lg:w-[413px] lg:h-[346px] mx-auto border-b-6 sm:border-b-0 lg:border-b-0 lg:hover:border-b-6 border-primary-color lg:hover:border-primary-color transition duration-200"
             >
                 {/* inner div  */}
               <div className="w-64 lg:w-79 pt-9 lg:pt-12 flex flex-col justify-center mx-auto">

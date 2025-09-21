@@ -20,10 +20,10 @@ const JoinSection = () => {
 
           {/* right buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end flex-1 relative">
-            <button className="bg-secondary-color text-white text-[14px] sm:text-[16px] lg:text-[20px] font-medium lg:font-bold px-6 py-3 rounded-md hover:opacity-90 w-fit mx-auto lg:m-0">
+            <button className="bg-secondary-color sm:h-12 text-white text-[14px] sm:text-[16px] lg:text-[20px] font-medium lg:font-bold px-6 py-3 rounded-md hover:opacity-90 w-fit mx-auto lg:m-0">
               Join Now
             </button>
-            <button className="bg-primary-color text-white text-[14px] sm:text-[16px] lg:text-[20px] font-medium lg:font-bold px-6 py-3 rounded-md hover:opacity-90 w-fit mx-auto lg:m-0">
+            <button className="bg-primary-color sm:h-12 text-white text-[14px] sm:text-[16px] lg:text-[20px] font-medium lg:font-bold px-6 py-3 rounded-md hover:opacity-90 w-fit mx-auto lg:m-0">
               Subscribe Course
             </button>
 
